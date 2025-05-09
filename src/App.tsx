@@ -1,10 +1,11 @@
 import "./App.css";
 import TestimonialCard from "./components/TestimonialCard";
 import { TestimonialCardProps } from "./types";
+import imgSrc from './assets/profile-thumbnail.png'
 
 const cardInfo: TestimonialCardProps = {
-  imgSrc: "src/assets/profile-thumbnail.png",
-  name: "Sarah Dole Sarah DoleSarah DoleSarah DoleSarah DoleSarah DoleSarah Dole",
+  imgSrc,
+  name: "Sarah Dole",
   username: "sarahdole",
   description:
     "I've been searching for high-quality abstract images for my design projects, and I'm thrilled to have found this platform. The variety and depth of creativity are astounding!",
