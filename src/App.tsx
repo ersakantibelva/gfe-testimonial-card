@@ -13,7 +13,7 @@ const cardInfo: TestimonialCardProps = {
 
 function App() {
   return (
-    <div className="flex justify-center items-center w-screen h-screen bg-linear-to-br from-[#F9FAFB] to-[#D2D6DB]">
+    <div className="flex justify-center py-[200px] w-screen h-screen bg-linear-to-br from-[#F9FAFB] to-[#D2D6DB]">
       <TestimonialCard
         imgSrc={cardInfo.imgSrc}
         name={cardInfo.name}
